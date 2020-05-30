@@ -307,6 +307,10 @@
     #mobile-nav-open-btn {
         display: block;
     }
+    #home-bg-image{
+        margin: 0 auto;
+        display: block;
+    }
     
     /*button*/
     .btn-general {
