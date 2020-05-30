@@ -353,6 +353,10 @@
         font-size: 30px;
         line-height: 25px
     }
+    
+    #portfolio h1{
+        font-weight: bold;
+    }
 
     #service-01 img {
         margin: 30px 0;
@@ -431,6 +435,12 @@
     }
 
     /*skill*/
+    #skill h1{
+        font-weight: bold;
+    }
+    #resume h1{
+        font-weight: bold;
+    }
     .skill h4 {
         font-size: 17px;
         line-height: 20px;
@@ -439,12 +449,19 @@
 
 
     /*service 02*/
+    #service h1{
+        font-weight: bold;
+    }
     .service {
         text-align: center;
     }
 
 
     /*contact*/
+    #contact h1{
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
     .branch h4 {
         font-size: 16px;
     }

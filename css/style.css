@@ -692,18 +692,24 @@ ul.navbar-nav > li > a:focus {
     background: #F4C613;
 }
 #resume-left{
-    box-shadow: 10px 10px 25px 0 rgba(0,0,0,0.1);
+    box-shadow: 7px 3px 23px 13px rgba(76, 64, 9, 0.09);
+    border: 1px solid #0000001a;
     border-radius: 6px;
     padding: 20px 30px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 #resume-left h3{
     color: #F4C613;
 }
 
 #resume-right{
-    box-shadow: 10px 10px 25px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 7px 3px 23px 13px rgba(76, 64, 9, 0.09);
+    border: 1px solid #0000001a;
     border-radius: 6px;
     padding: 20px 30px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 #resume-right h3{
     color: #F4C613;
@@ -788,10 +794,13 @@ ul.brance-details li i {
 
 #contact-left {
     background: #fff;
-    -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 7px 3px 23px 13px rgba(76, 64, 9, 0.09);
+    box-shadow: 7px 3px 23px 13px rgba(76, 64, 9, 0.09);
+    border: 1px solid #0000001a;
     border-radius: 6px;
     padding: 20px 30px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 #contact-left h4 {
@@ -816,10 +825,13 @@ ul.brance-details li i {
 /*contact-right*/
 #contact-right{
     background: #fff;
-    -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 7px 3px 23px 13px rgba(76, 64, 9, 0.09);
+    box-shadow: 7px 3px 23px 13px rgba(76, 64, 9, 0.09);
+    border: 1px solid #0000001a;
     border-radius: 6px;
     padding: 20px 30px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 .contact-details{
     margin: 23px 0px;
