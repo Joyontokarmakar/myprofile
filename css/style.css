@@ -175,6 +175,10 @@ ul.navbar-nav > li > a:focus {
     vertical-align: middle;
 }
 
+#home-heading h1{
+    font-family: 'Changa', sans-serif;
+}
+
 #home-heading h1 {
     color: #fff;
     text-transform: uppercase;
@@ -359,6 +363,7 @@ ul.navbar-nav > li > a:focus {
 
 #about-right .about-list li{
     list-style: none;
+    font-family: 'Changa', sans-serif;
 }
 
 #about-right .about-list li .title {
@@ -389,7 +394,7 @@ ul.navbar-nav > li > a:focus {
 #about-right p{
     font-size: 16px;
     font-weight: 500;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Changa', sans-serif;
 }
 
 /*==================================
@@ -507,14 +512,16 @@ ul.navbar-nav > li > a:focus {
 }
 
 .progress-bar span {
-    font-weight: 100;
+    font-weight: bold;
     font-family: "Open sans", sans-serif;
     font-size: 14px;
     position: absolute;
-    left: 97%;
-    background-color: #212226;
+    left: 98.5%;
+    color: #fffcfc;
+    background-color: #f4c613;
     top: -40px;
 }
+
 
 .progress-bar span:before {
     content: "";
