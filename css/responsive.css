@@ -405,6 +405,10 @@
         -webkit-transition: border-color 300ms linear;
         transition: border-color 300ms linear;
     }
+    /*skill*/
+    .progress-bar span{
+        top: -29px;
+    }
 
     /*pricing*/
     .pricing-table {
