@@ -339,7 +339,10 @@
     .about-item {
         margin-bottom: 20px;
     }
-
+    
+    .about_list_right{
+        margin-top: -20px;
+    }
     /*Team*/
     #team-bottom p {
         margin: 40px 0 50px 0;
@@ -360,6 +363,10 @@
     
     #portfolio h1{
         font-weight: bold;
+    }
+    
+    .my_service_section{
+        margin-top: 30px;
     }
 
     #service-01 img {
