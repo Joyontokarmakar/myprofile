@@ -526,15 +526,15 @@ ul.navbar-nav > li > a:focus {
     font-size: 14px;
     position: absolute;
     left: 98.5%;
-    color: #fffcfc;
-    background-color: #f4c613;
+    color: #fff;
+    background-color: #dacf04;
     top: -40px;
 }
 
 
 .progress-bar span:before {
     content: "";
-    border-top: 8px solid #f4c613;
+    border-top: 8px solid #cca717;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
     position: absolute;
