@@ -598,6 +598,7 @@ ul.navbar-nav > li > a:focus {
     width: 500px;
     height: 300px;
     border: 7px solid #ddd;
+    border-right: 23px solid #ddd;
     margin: 15px;
     -webkit-transition:
         -webkit-transform .9s ease;
@@ -616,9 +617,9 @@ ul.navbar-nav > li > a:focus {
 
 .portfolio-item-overlay {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
+    top: 7px;
+    bottom: 7px;
+    left: 7px;
     right: 0;
     background: rgb(14, 14, 17, 0.9);
     /*background: rgb(244, 199, 44);*/
