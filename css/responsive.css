@@ -92,8 +92,7 @@
 /*Extra large Devices (Large Dasktop and Laptop)*/
 
 @media (min-width: 1200px) {
-    #isotope-filter {
-    }
+    #isotope-filter {}
 
     #isotope-filter .button {
         font-size: 12px;
@@ -106,9 +105,8 @@
 /* Large Devices (Dasktop and Laptop) */
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    
-    #isotope-filter {
-    }
+
+    #isotope-filter {}
 
     #isotope-filter .button {
         font-size: 12px;
@@ -116,6 +114,7 @@
         padding: 8px 40px;
         border: 2px solid #ddd;
     }
+
     /*generic*/
     .vertical-heading h5 {
         left: -30px;
@@ -153,9 +152,8 @@
 /* Medium Devices (Landscape Tablets & Medium Desktop) */
 
 @media (min-width: 768px) and (max-width: 991px) {
-    
-    #isotope-filter {
-    }
+
+    #isotope-filter {}
 
     #isotope-filter .button {
         font-size: 12px;
@@ -169,7 +167,7 @@
     ul.navbar-nav li a {
         font-size: 12px;
     }
-    
+
     /*service 02*/
     #service-tabs .tab-bg {
         padding: 0 20px;
@@ -186,11 +184,12 @@
         padding: 10px 45px;
         font-size: 12px;
     }
-    
+
     /*back to top*/
-    #back-to-top{
+    #back-to-top {
         font-size: 12px;
     }
+
     .r-tabs-accordion-title {
         text-align: center;
         margin-bottom: 10px;
@@ -262,40 +261,47 @@
     .skill h4 {
         font-size: 18px;
     }
-    #about-right .horizontal-heading{
+
+    #about-right .horizontal-heading {
         margin-bottom: 0;
     }
-    #about-right .horizontal-heading p{
+
+    #about-right .horizontal-heading p {
         font-size: 10px;
     }
-    #about-right ul.about-list{
+
+    #about-right ul.about-list {
         margin: 0;
         font-size: 10px;
     }
-    #contact-right .vertical-heading h3{
+
+    #contact-right .vertical-heading h3 {
         margin: 0;
     }
-    #contact-right .contact-details{
+
+    #contact-right .contact-details {
         margin-bottom: 1px;
     }
+
     #contact-right ul.social-list {
         margin-top: 0;
     }
-    .container-box-sm{
-        padding: 20px;
-    }
-    .container-box-md{
+
+    .container-box-sm {
         padding: 20px;
     }
 
-    
+    .container-box-md {
+        padding: 20px;
+    }
+
+
 }
 
 /* Small Devices (Portrait Tablets & Small Desktop) */
 
 @media (max-width: 767px) {
-    #isotope-filter {
-    }
+    #isotope-filter {}
 
     #isotope-filter .button {
         font-size: 12px;
@@ -303,25 +309,28 @@
         padding: 5px 8px;
         border: 2px solid #ddd;
     }
+
     /*show mobile nav open btn*/
     #mobile-nav-open-btn {
         display: block;
     }
-    #home-bg-image{
+
+    #home-bg-image {
         margin: 0 auto;
         display: block;
     }
-    
+
     /*button*/
     .btn-general {
         padding: 8px 35px;
         font-size: 10px;
     }
-    
+
     /*back to top*/
-    #back-to-top{
+    #back-to-top {
         font-size: 10px;
     }
+
     /*home*/
     #home-heading h1 {
         font-size: 30px;
@@ -339,10 +348,11 @@
     .about-item {
         margin-bottom: 20px;
     }
-    
-    .about_list_right{
+
+    .about_list_right {
         margin-top: -20px;
     }
+
     /*Team*/
     #team-bottom p {
         margin: 40px 0 50px 0;
@@ -360,12 +370,12 @@
         font-size: 30px;
         line-height: 25px
     }
-    
-    #portfolio h1{
+
+    #portfolio h1 {
         font-weight: bold;
     }
-    
-    .my_service_section{
+
+    .my_service_section {
         margin-top: 30px;
     }
 
@@ -405,8 +415,9 @@
         -webkit-transition: border-color 300ms linear;
         transition: border-color 300ms linear;
     }
+
     /*skill*/
-    .progress-bar span{
+    .progress-bar span {
         top: -29px;
     }
 
@@ -450,12 +461,14 @@
     }
 
     /*skill*/
-    #skill h1{
+    #skill h1 {
         font-weight: bold;
     }
-    #resume h1{
+
+    #resume h1 {
         font-weight: bold;
     }
+
     .skill h4 {
         font-size: 17px;
         line-height: 20px;
@@ -464,19 +477,21 @@
 
 
     /*service 02*/
-    #service h1{
+    #service h1 {
         font-weight: bold;
     }
+
     .service {
         text-align: center;
     }
 
 
     /*contact*/
-    #contact h1{
+    #contact h1 {
         margin-bottom: 20px;
         font-weight: bold;
     }
+
     .branch h4 {
         font-size: 16px;
     }
@@ -494,28 +509,36 @@
     #statement .text-section h4 {
         font-size: 14px;
     }
-    .container-box-sm{
+
+    .container-box-sm {
         padding: 0;
     }
-    #about-right .horizontal-heading h1{
+
+    #about-right .horizontal-heading h1 {
         line-height: 45px;
     }
-    #service .horizontal-heading h1{
+
+    #service .horizontal-heading h1 {
         line-height: 45px;
     }
-    #skill .horizontal-heading h1{
+
+    #skill .horizontal-heading h1 {
         line-height: 45px;
     }
-    #portfolio .horizontal-heading h1{
+
+    #portfolio .horizontal-heading h1 {
         line-height: 45px;
     }
-    #resume .horizontal-heading h1{
+
+    #resume .horizontal-heading h1 {
         line-height: 45px;
     }
-    #contact .horizontal-heading h1{
+
+    #contact .horizontal-heading h1 {
         line-height: 45px;
     }
-    .container-box-md{
+
+    .container-box-md {
         padding: 0;
     }
 }
@@ -524,7 +547,7 @@
 /* Extra Small Devices (Landscape phone & Portrait Tablets) */
 
 @media (max-width: 575px) {
-    #portfolio{
+    #portfolio {
         padding: 0;
         margin: 0;
     }
@@ -535,12 +558,13 @@
         padding: 8px 10px;
         border: 2px solid #ddd;
     }
+
     .btn-general {
         padding: 8px 35px;
         font-size: 10px;
     }
-    
-    #back-to-top{
+
+    #back-to-top {
         font-size: 10px;
         padding: 2px 7px;
     }
@@ -713,11 +737,11 @@
 }
 
 @media (max-width: 500px) {
-    .console-container{
+    .console-container {
         font-size: 25px;
         top: 56%;
     }
-    
+
     .btn-general {
         padding: 5px 30px;
         font-size: 10px;
@@ -767,12 +791,12 @@
         padding: 5px 30px;
         font-size: 10px;
     }
-    
-    #back-to-top{
+
+    #back-to-top {
         font-size: 10px;
         padding: 2px 5px;
     }
-    
+
     #isotope-filter {
         text-align: center;
     }
@@ -816,10 +840,12 @@
         margin-bottom: 15px;
         line-height: normal;
     }
-    #back-to-top{
+
+    #back-to-top {
         font-size: 12px;
         padding: 1px 8px;
     }
+
     /*customer*/
     .testimonial h3 {
         font-size: 18px;
@@ -855,10 +881,12 @@
     #home-heading h1 {
         font-size: 25px;
     }
-    #back-to-top{
+
+    #back-to-top {
         font-size: 10px;
         padding: 1px 5px;
     }
+
     .progress {
         height: 18px;
     }

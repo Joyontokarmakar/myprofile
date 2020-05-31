@@ -1,0 +1,48 @@
+aside {
+    background: #1f8dd6;
+    /* same color as selected state on site menu */
+    padding: 0.3em 1em;
+    border-radius: 3px;
+    color: #fff;
+    margin-bottom: 2em;
+}
+
+textarea {
+    width: 100%;
+}
+
+.content-head {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 2em 0 1em;
+}
+
+.is-center {
+    text-align: center;
+}
+
+button {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    background-color: #f4c613;
+    padding: 10px 40px 10px 40px;
+    margin: 0 5px;
+    -webkit-transition: all.5s;
+    transition: all.5s;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+#name,
+#email,
+#subject,
+#phone {
+    width: 100%;
+}
