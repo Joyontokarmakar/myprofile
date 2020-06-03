@@ -843,6 +843,15 @@ ul.brance-details li i {
     min-height: 160px;
 }
 
+.alrt-msg1{
+    color: #F4C613;
+}
+
+.alrt-msg2{
+    color: #808080;
+    font-size: 19px;
+}
+
 /*contact-right*/
 #contact-right {
     background: #fff;
@@ -924,7 +933,7 @@ footer p span {
     text-align: center;
     display: block;
     position: absolute;
-    color: white;
+    color: #fff;
     top: 59%;
     bottom: 0;
     left: 20px;
