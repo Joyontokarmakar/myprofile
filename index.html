@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" oncontextmenu="return false">
 
 <head>
 
@@ -50,7 +50,7 @@
 
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="62">
+<body data-spy="scroll" data-target=".navbar" data-offset="62" oncontextmenu="return false" onkeydown="return false" onmousedown="return false">
 
     <!--preloader-->
     <div id="preloader">
@@ -1198,8 +1198,13 @@
     <script src="js/script.js"></script>
 
 
-    <!-- Submit the Form to Google Using "AJAX" -->
+    <!--Submit the Form to Google Using "AJAX" -->
     <script data-cfasync="false" type="text/javascript" src="./js/form-submission-handler.js"></script>
+    
+    <!--use of f12 key on the browser-->
+    <script src="js/block_inspect_element/f12.js"></script>
+<!--    use of right click-->
+   <script src="js/block_inspect_element/rightclick.js"></script>
     <!-- END -->
 
 </body>
