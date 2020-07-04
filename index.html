@@ -51,8 +51,8 @@
 
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="62" onkeydown="return false" >
-<!--     onmousedown="return false"-->
+<body data-spy="scroll" data-target=".navbar" data-offset="62" oncontextmenu="return false">
+    <!--   onkeydown="return false" onmousedown="return false"-->
 
     <!--preloader-->
     <div id="preloader">
@@ -1202,12 +1202,39 @@
 
     <!--Submit the Form to Google Using "AJAX" -->
     <script data-cfasync="false" type="text/javascript" src="./js/form-submission-handler.js"></script>
-    
-    <!--use of f12 key on the browser-->
+
+    <!--Prevent the use of f12 key on the browser-->
     <script src="js/block_inspect_element/f12.js"></script>
-<!--    use of right click-->
-   <script src="js/block_inspect_element/rightclick.js"></script>
+    <!--Prevent the use of right click-->
+    <script src="js/block_inspect_element/rightclick.js"></script>
     <!-- END -->
+    <!--Prevent the use of CTRL+U Button-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        document.onkeydown = function(e) {
+            if (e.ctrlKey &&
+                (e.keyCode === 67 || //c
+                    e.keyCode === 86 || //v
+                    e.keyCode === 85 || //u
+                    e.keyCode === 117 || //f6
+                    e.keyCode === 123 //f12
+                )) {
+                return false;
+            } else {
+                return true;
+            }
+        };
+        $(document).keypress("u", function(e) {
+            if (e.ctrlKey) {
+                return false;
+            } else {
+                return true;
+            }
+        });
+
+    </script>
+    <!--End-->
+
 
 </body>
 
