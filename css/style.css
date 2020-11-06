@@ -651,7 +651,7 @@ ul.navbar-nav > li > a:focus {
 .portfolio-item-details h3 {
     color: #fff;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 25px;
     padding: 0;
     margin: 0;
     -webkit-transform: translateY(-20%);
@@ -662,11 +662,20 @@ ul.navbar-nav > li > a:focus {
 
 .portfolio-item-details span {
     display: inline-block;
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #fff;
-    height: 6px;
-    width: 30px;
-    margin: 11px auto 5px auto;
+    color: #fff;
+    font-size: 20px;
+    margin: -1px auto 5px auto;
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(359deg);
+    }
 }
 
 .portfolio-item-details p {
@@ -843,11 +852,11 @@ ul.brance-details li i {
     min-height: 160px;
 }
 
-.alrt-msg1{
+.alrt-msg1 {
     color: #F4C613;
 }
 
-.alrt-msg2{
+.alrt-msg2 {
     color: #808080;
     font-size: 19px;
 }
@@ -991,4 +1000,25 @@ footer p span {
 ::selection {
     color: #fff;
     background: #f4c613;
+}
+
+/*==================================
+            Portfolio Section
+====================================*/
+
+.portfolio_view_btn {
+    background-color: #f4c613;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    border: 2px solid #f4c613;
+    border-radius: 25px;
+}
+
+
+.portfolio_view_btn:hover {
+    background-color: transparent;
+    color: #fff;
+    margin-top: 2px;
+    border: 2px solid #f4c613;
 }
