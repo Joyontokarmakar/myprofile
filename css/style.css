@@ -9,6 +9,7 @@ Color:
     White Smoke:    #f4f4f4
     White:          #fff
     Black:          #000
+    background-image: linear-gradient( to bottom,#ffbd54 0%,#fec458 50%,#ffbc3a 100% );
 ====================================*/
 
 /*==================================
@@ -341,7 +342,6 @@ ul.navbar-nav > li > a:focus {
 }
 
 .horizontal-heading h1 {
-    font-weight: 100;
     font-size: 45px;
     line-height: 80px;
     margin: 0;
@@ -488,58 +488,59 @@ ul.navbar-nav > li > a:focus {
 /*==================================
             skill
 ====================================*/
-#skill h1::after {
-    content: "";
-    display: block;
-    height: .2rem;
-    width: 5.5rem;
-    margin: auto;
-    background: #F4C613;
+.skills {
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
 }
 
-.skill {
-    margin-bottom: 30px;
-}
-
-.skill h4 {
+.skill-name {
+    font-size: 18px;
+    font-weight: 700;
     text-transform: uppercase;
-    font-weight: normal;
-    line-height: 60px;
-    margin: 0;
+    margin: 20px 0;
 }
 
-.progress {
-    background: #f4f4f4;
-    overflow: visible;
-    height: 25px;
+.skill-bar {
+    height: 20px;
+    background: #cacaca;
+    border-radius: 8px;
 }
 
-.progress-bar {
-    background-color: #F4C613;
+.skill-per {
+    height: 20px;
+    background-color: #f4c613;
+    border-radius: 8px;
+    width: 0;
+    transition: 1s linear;
     position: relative;
-
 }
 
-.progress-bar span {
-    font-weight: bold;
-    font-family: "Open sans", sans-serif;
-    font-size: 14px;
+.skill-per::before {
+    content: attr(per);
     position: absolute;
-    left: 98.5%;
+    padding: 4px 6px;
+    background-color: #f4c613;
     color: #fff;
-    background-color: #dacf04;
-    top: -40px;
+    font-size: 12px;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
 }
 
-
-.progress-bar span:before {
-    content: "";
-    border-top: 8px solid #cca717;
-    border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
+.skill-per::after {
+    content: '';
     position: absolute;
-    bottom: -7px;
+    width: 10px;
+    height: 10px;
+    background-color: #f4c613;
+    top: -16px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
 }
+
 
 /*==================================
             protfolio
@@ -572,8 +573,8 @@ ul.navbar-nav > li > a:focus {
 }
 
 #isotope-filter {
-    margin-bottom: 20px;
-    padding: 8px 40px;
+    margin: 20px 0;
+    text-align: center;
 }
 
 #isotope-filter button {
@@ -1021,4 +1022,11 @@ footer p span {
     color: #fff;
     margin-top: 2px;
     border: 2px solid #f4c613;
+}
+
+
+#isotope-filter .button:hover span {
+    color: #f4c613;
+    border-bottom: 2px solid #f4c613;
+
 }
