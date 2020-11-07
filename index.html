@@ -48,9 +48,8 @@
 
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="62">
-    <!-- oncontextmenu="return false"
-       onkeydown="return false" 
+<body data-spy="scroll" data-target=".navbar" data-offset="62" oncontextmenu="return false">
+    <!-- onkeydown="return false" 
        onmousedown="return false"-->
 
     <!--preloader-->
@@ -1024,13 +1023,13 @@
     </script>
 
     <!--Prevent the use of f12 key on the browser-->
-    <!--    <script src="js/block_inspect_element/f12.js"></script>-->
+    <script src="js/block_inspect_element/f12.js"></script>
     <!--Prevent the use of right click-->
-    <!--    <script src="js/block_inspect_element/rightclick.js"></script>-->
+    <script src="js/block_inspect_element/rightclick.js"></script>
     <!-- END -->
     <!--Prevent the use of CTRL+U Button-->
-    <!--    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
-    <!--
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
     <script>
         document.onkeydown = function(e) {
             if (e.ctrlKey &&
@@ -1052,8 +1051,9 @@
                 return true;
             }
         });
+
     </script>
--->
+
     <!--End-->
 
 
