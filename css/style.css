@@ -280,8 +280,8 @@ ul.navbar-nav > li > a:focus {
 }
 
 #back-to-top {
-    right: 20px;
-    bottom: 20px;
+    right: 45px;
+    bottom: 100px;
     position: fixed;
     padding: 3px 12px;
     border-radius: 4px;
