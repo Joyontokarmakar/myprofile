@@ -785,6 +785,11 @@ ul.social-list li:nth-child(2) a:hover {
 }
 
 ul.social-list li:nth-child(3) a:hover {
+    background: #000;
+    border-color: transparent;
+}
+
+ul.social-list li:nth-child(4) a:hover {
     background: linear-gradient(166deg, rgba(105, 58, 180, 1) 0%, rgba(253, 29, 60, 1) 50%, rgba(252, 238, 69, 1) 100%);
     border-color: transparent;
 }
