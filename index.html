@@ -65,7 +65,8 @@
 
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="62" oncontextmenu="return false">
+<!-- <body data-spy="scroll" data-target=".navbar" data-offset="62" oncontextmenu="return false"> -->
+<body>
     <!-- onkeydown="return false" 
        onmousedown="return false"-->
 
@@ -162,36 +163,39 @@
         <div id="home-overlay"></div>
 
         <!--Home content-->
-        <div id="home-content" class="text-center">
 
-            <div id="home-content-inner">
 
-                <div id="home-heading">
-                    <div id="home-heading-1">
-                        <h1>H I !</h1>
+            <div id="home-content" class="text-center">
+        <!-- <div id="particles-js"> -->
+                <div id="home-content-inner">
+    
+                    <div id="home-heading">
+                        <div id="home-heading-1">
+                            <h1>H I !</h1>
+                        </div>
+    
+                        <div id="home-heading-2">
+                            <h1 class="nm">i'm <span>JOYONTO KARMAKAR</span></h1>
+                        </div>
                     </div>
-
-                    <div id="home-heading-2">
-                        <h1 class="nm">i'm <span>JOYONTO KARMAKAR</span></h1>
+    
+                    <!--animated text-->
+                    <div class='console-container'>
+                        <span id="home-text"></span>
+                        <div class='console-underscore' id='console'>&#95;</div>
                     </div>
+    
+    
+                    <div id="home-btn">
+    
+                        <a class="btn btn-general btn-home smooth-scroll" href="#about" role="button">View More</a>
+    
+                    </div>
+    
                 </div>
-
-                <!--animated text-->
-                <div class='console-container'>
-                    <span id="home-text"></span>
-                    <div class='console-underscore' id='console'>&#95;</div>
-                </div>
-
-
-                <div id="home-btn">
-
-                    <a class="btn btn-general btn-home smooth-scroll" href="#about" role="button">View More</a>
-
-                </div>
-
+    
             </div>
-
-        </div>
+        <!-- </div> -->
 
         <!--Array down-->
         <a href="#about" id="Arrow-down" class="smooth-scroll">
@@ -456,7 +460,7 @@
 
                                 <!--skill 09-->
                                 <div class="skill">
-                                    <div class="skill-name">Wprdpress</div>
+                                    <div class="skill-name">Wordpress</div>
                                     <div class="skill-bar">
                                         <div class="skill-per" per="50"></div>
                                     </div>
@@ -758,7 +762,7 @@
     </section>
     <!--portfolio Ends-->
 
-    <!--Skill-->
+    <!--Resume-->
     <section id="resume">
         <div class="container-box-sm">
             <div class="container">
@@ -772,7 +776,7 @@
 
                 <div class="row">
 
-                    <!--about left-->
+                    <!--Resume left-->
                     <div class="col-md-6 wow slideInLeft" data-wow-duration="1s">
 
                         <div id="resume-left">
@@ -780,7 +784,7 @@
                                 <h3>Experience <span><i class="fas fa-briefcase"></i></span></h3>
                                 <!--3rd workplace-->
                                 <hr>
-                                <h4>Frontend Web Developer</h4>
+                                <h4>Frontend Web Developer (Full Time)</h4>
                                 <a href="http://www.jatri.co" class="experiance_link" style="text-decoration:none;">
                                     <h6>Jatri Service Ltd.</h6>
                                 </a>
@@ -788,7 +792,7 @@
 
                                 <!--2nd workplace-->
                                 <hr>
-                                <h4>Frontend Web Developer</h4>
+                                <h4>Frontend Web Developer (Intern)</h4>
                                 <a href="http://www.coderspy.com/" class="experiance_link" style="text-decoration:none;">
                                     <h6>CoderSpy IT Solution Ltd.</h6>
                                 </a>
@@ -796,7 +800,7 @@
 
                                 <!--1st workplace-->
                                 <hr>
-                                <h4>Intern as Frentend Web Developer</h4>
+                                <h4>Intern as Frontend Web Developer (Part Time)</h4>
                                 <a href="https://exitolabs.com/" class="experiance_link" style="text-decoration:none;">
                                     <h6>EXITO LABS</h6>
                                 </a>
@@ -825,11 +829,8 @@
                                 <p>2018</p>
                             </div>
                         </div>
-
                     </div>
-
-
-                    <!--about right-->
+                    <!--Resume right-->
                     <div class="col-md-6 wow slideInRight" data-wow-duration="1s">
 
                         <div id="resume-right">
@@ -845,16 +846,12 @@
                                     Passing Year : 2015 <br>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
-
-
             </div>
         </div>
     </section>
-    <!--Skill Ends-->
+    <!--Resume Ends-->
 
     <!--contact-->
     <section id="contact">
@@ -1095,14 +1092,15 @@
     </script>
 
     <!--Prevent the use of f12 key on the browser-->
-    <script src="js/block_inspect_element/f12.js"></script>
+    <!-- <script src="js/block_inspect_element/f12.js"></script> -->
     <!--Prevent the use of right click-->
-    <script src="js/block_inspect_element/rightclick.js"></script>
+    <!-- <script src="js/block_inspect_element/rightclick.js"></script> -->
     <!-- END -->
     <!--Prevent the use of CTRL+U Button-->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
 
-    <script>
+    <!-- Prevent all use of inspect -->
+    <!-- <script>
         document.onkeydown = function(e) {
             if (e.ctrlKey &&
                 (e.keyCode === 67 || //c
@@ -1124,7 +1122,11 @@
             }
         });
 
-    </script>
+    </script> -->
+
+    <!-- Particle js -->
+    <script type="text/javascript" src="js/particle_js/particles.js"></script>
+    <script type="text/javascript" src="js/particle_js/app.js"></script>
 
     <!--End-->
 

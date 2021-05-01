@@ -6,9 +6,6 @@ $(window).on("load", function () {
     $('#status').fadeOut();
 });
 
-
-
-
 /*==================================
             progress bar
 ====================================*/
@@ -28,16 +25,17 @@ $(function () {
     });
 });
 
+
 /*==================================
             responsive tabs
 ====================================*/
-
 
 $(function () {
     $("#service-tabs").responsiveTabs({
         animation: 'slide'
     });
 });
+
 
 /*==================================
             protfolio
@@ -51,7 +49,6 @@ $(window).on('load', function () {
         itemSelector: '.item',
         layoutMode: 'fitRows'
     });
-
 
     //filter items on button click
     $('#isotope-filter').on('click', 'button', function () {
@@ -70,23 +67,6 @@ $(window).on('load', function () {
 
     });
 });
-
-
-
-/*==================================
-            magnifier
-====================================*/
-
-// $(function () {
-//     $('#portfolio-item').magnificPopup({
-//         delegate: 'a', // child items selector, by clicking on it popup will open
-//         type: 'image',
-//         gallery: {
-//             enabled: true
-//         }
-//     });
-// });
-
 
 /*==================================
            Navigation
@@ -166,7 +146,7 @@ $(function () {
 $(function () {
     
     // function([string1, string2],target id,[color1,color2])    
- consoleText(['Frontend Web Developer'], 'home-text',['white']);
+ consoleText(['Frontend Web Developer','MERN Developer'], 'home-text',['white']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
@@ -214,13 +194,10 @@ function consoleText(words, id, colors) {
 
       visible = true;
     }
-  }, 400)
+  }, 1800)
 }
     
 });
-
-
-
 
 /*==================================
            Animation
@@ -239,27 +216,3 @@ $(window).on('load', function () {
     $("#home-btn").addClass("animated zoomIn");
     $("#Arrow-down i").addClass("animated fadeInDown infinite");
 });
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
