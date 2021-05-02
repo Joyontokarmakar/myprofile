@@ -265,3 +265,8 @@ body{
 .prog_bg{
     background-color: #f4c613 !important;
 }
+
+/* Skill image design starts */
+.skill_img{
+    image-rendering: -webkit-optimize-contrast;
+}
