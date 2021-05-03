@@ -423,7 +423,8 @@ ul.navbar-nav > li > a:focus {
     background: #fff;
     padding: 50px 10px;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1)
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    height: 100%;
 }
 
 .service-item i {
@@ -837,6 +838,7 @@ ul.brance-details li i {
     padding: 20px 30px;
     margin-top: 16px;
     margin-bottom: 16px;
+    height: 100%;
 }
 
 #contact-left h4 {
@@ -877,6 +879,7 @@ ul.brance-details li i {
     padding: 20px 30px;
     margin-top: 16px;
     margin-bottom: 16px;
+    height: 100%;
 }
 
 .contact-details {
