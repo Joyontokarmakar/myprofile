@@ -1038,3 +1038,25 @@ footer p span {
     border-bottom: 2px solid #f4c613;
 
 }
+
+
+/* =================================
+          Custom Scroll Bar
+===================================*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #212226;
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #f4c613;
+    border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #f4c613; 
+}
