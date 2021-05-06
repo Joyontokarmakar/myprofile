@@ -1025,7 +1025,8 @@ footer p span {
 }
 
 
-.portfolio_view_btn:hover {
+.portfolio_view_btn:hover,
+.portfolio_view_btn:focus {
     background-color: transparent;
     color: #fff;
     margin-top: 2px;
