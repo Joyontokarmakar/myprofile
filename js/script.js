@@ -146,7 +146,7 @@ $(function () {
 $(function () {
     
     // function([string1, string2],target id,[color1,color2])    
- consoleText(['Frontend Web Developer','MERN Developer'], 'home-text',['white']);
+ consoleText(['Frontend Web Developer','Freelancer'], 'home-text',['white']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
