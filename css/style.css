@@ -281,7 +281,7 @@ ul.navbar-nav > li > a:focus {
 
 #back-to-top {
     right: 45px;
-    bottom: 120px;
+    bottom: 125px;
     position: fixed;
     padding: 3px 12px;
     border-radius: 4px;
@@ -289,6 +289,12 @@ ul.navbar-nav > li > a:focus {
     display: none;
     -webkit-transition: all 0.4s ease-out;
     transition: all 0.4s ease-out;
+}
+
+#visitior_counter{
+    right: 45px;
+    bottom: 120px;
+    position: fixed;
 }
 
 /*==================================
